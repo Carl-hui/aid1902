@@ -89,7 +89,7 @@ def binary(value,key):
 
 if __name__=="__main__":
     value = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
-    key=6#待查数据
+    key=6###待查数据
     request = binary(value,key)
     if  request ==-1:
         print("over")
